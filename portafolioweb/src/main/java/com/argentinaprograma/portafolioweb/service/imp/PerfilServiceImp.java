@@ -157,9 +157,12 @@ public class PerfilServiceImp implements PerfilService{
 		proy=new Proyecto("ProgramandoComunidad", "Un proyecto realizado con unos amigos en el cual consiste en crear una pagina en java en la cual ONG y programadores se pueden unir y dependiendo de los proyectos que publican la ONG  y los programadores se pueden unir al proyecto", "https://github.com/nardo96hub/ProgramandoComunidad_PF");
 		perfil.agregarProy(proy);
 		
-		exp=new Experiencia("tit","emp","jor","anio","lugar");
+		exp=new Experiencia("Desarrollador Backend","Digital HR","Jornada Parcial","2021","CABA,Buenos Aires");
 		perfil.agregarExp(exp);
-	
+		exp=new Experiencia("Consultor Sap","Neoris","Jornada Completo","2022","Rosario,Santa Fe");
+		perfil.agregarExp(exp);
+		
+		
 		this.guardarPerfil(perfil);
 		
 		return perfil;
