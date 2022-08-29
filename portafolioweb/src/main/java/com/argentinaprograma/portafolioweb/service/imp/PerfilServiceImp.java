@@ -105,7 +105,7 @@ public class PerfilServiceImp implements PerfilService{
 		
 		perfil=this.registro("user", "user");
 		
-		acerca=new Acerca("Soy un programar con ganas de conseguir mas experiencia laboral  relacionada con la programacion.");
+		acerca=new Acerca("Soy un programador con ganas de conseguir mas experiencia laboral  relacionada con la programacion.");
 		perfil.setAcer(acerca);
 		infoP=new Personal("Luciano","Nardelli", "nardelli96@gmail.com","Rosario,Santa Fe");
 		perfil.setImagen(new Imagen("https://4.bp.blogspot.com/-jDcqEFr898k/XBAeeuO_B3I/AAAAAAAAAEM/ugCkZsDFoN8_HGj34Mcs6O61GvNDzcKaACLcBGAs/s1600/phpCode.png", "../../../assets/img/MyFoto.jpg"));
@@ -159,7 +159,7 @@ public class PerfilServiceImp implements PerfilService{
 		
 		exp=new Experiencia("Desarrollador Backend","Digital HR","Jornada Parcial","2021","CABA,Buenos Aires");
 		perfil.agregarExp(exp);
-		exp=new Experiencia("Consultor Sap","Neoris","Jornada Completo","2022","Rosario,Santa Fe");
+		exp=new Experiencia("Consultor Sap","Neoris","Jornada Completa","2022","Rosario,Santa Fe");
 		perfil.agregarExp(exp);
 		
 		

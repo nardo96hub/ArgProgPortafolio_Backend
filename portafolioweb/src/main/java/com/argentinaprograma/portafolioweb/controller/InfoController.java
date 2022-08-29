@@ -14,7 +14,7 @@ import com.argentinaprograma.portafolioweb.model.Perfil;
 import com.argentinaprograma.portafolioweb.model.Redes;
 import com.argentinaprograma.portafolioweb.service.InfoService;
 
-@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/info")
 public class InfoController {

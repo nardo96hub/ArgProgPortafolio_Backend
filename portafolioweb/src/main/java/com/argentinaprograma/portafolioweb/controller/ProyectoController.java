@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.argentinaprograma.portafolioweb.model.Proyecto;
 import com.argentinaprograma.portafolioweb.service.ProyectoService;
 
-@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/proy")
 public class ProyectoController {

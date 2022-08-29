@@ -15,7 +15,7 @@ import com.argentinaprograma.portafolioweb.service.LoginLogout;
 import com.argentinaprograma.portafolioweb.service.PerfilService;
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/perfil")
 public class PerfilController {
 	@Autowired

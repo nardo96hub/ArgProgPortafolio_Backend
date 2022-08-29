@@ -19,7 +19,7 @@ import com.argentinaprograma.portafolioweb.model.Educacion;
 
 
 
-@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/edu")
 public class EducacionController {

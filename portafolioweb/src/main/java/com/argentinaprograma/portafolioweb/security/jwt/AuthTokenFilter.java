@@ -44,7 +44,7 @@ public class AuthTokenFilter  extends OncePerRequestFilter{
 				SecurityContextHolder.getContext().setAuthentication(authentication);
 			}
 		} catch (Exception e) {
-			logger.error("fail en el método doFilter", e.getMessage());
+			logger.error("Error en el método doFilter", e.getMessage());
 		}
 		filterChain.doFilter(request, response);
 	}

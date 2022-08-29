@@ -18,7 +18,7 @@ import com.argentinaprograma.portafolioweb.model.Skill;
 import com.argentinaprograma.portafolioweb.service.SkillService;
 
 
-@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/skill")
 public class SkillController {
